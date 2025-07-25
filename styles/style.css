@@ -70,9 +70,9 @@ nav a{
     margin-top: 3rem;
 }
 .site-heading{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bold;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -259,7 +259,7 @@ footer{
 .sec-2 a, .sec-3 a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
-    font-size: 1.19rem;
+    font-size: 1.1rem;
 } 
 
 
@@ -287,6 +287,20 @@ span{
     text-align: center;
 }
 
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.badge {
+  animation: spin 5s linear infinite;
+}
+
+
 
 
 
@@ -310,15 +324,24 @@ span{
     .banner{
         flex-direction: column-reverse ;
         margin-top: 120px;
+     
+       
      }
 
-     .banner img{
-        width: 100%;
-     }
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+ 
 
      .banner-description{
         width: 100%;
         margin-top: 28px;
+        margin-left: 1rem;
      }
 
      .headings{
@@ -332,6 +355,14 @@ span{
     grid-template-columns: repeat(2,1fr);
     width: 100%;
 
+}    
+.cart p{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+.cart button{
+    margin-top: 14px;
 }
      .plants-lover{
         flex-direction: column; 
