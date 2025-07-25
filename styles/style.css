@@ -109,6 +109,8 @@ nav a{
     margin-top: 10rem;
 }
 
+
+
 .badge{
     width: 250px;
     height: 250px;
@@ -219,7 +221,8 @@ nav a{
 
 .join input{
    
-    padding: 0.7rem 3rem;
+    padding: 0.741rem 3rem;
+    width: 30rem;
     border: none;
 }
 
@@ -319,7 +322,7 @@ span{
     .banner img {
         width: 100%;
         height: auto;
-        display: block;
+        display: block;;
     }
 
     .banner-description{
@@ -398,6 +401,7 @@ span{
 
     .join input{
     padding: 0.7rem 1rem;
+    width: 50%;
     border: none;
     }
 
