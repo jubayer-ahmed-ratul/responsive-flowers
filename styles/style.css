@@ -136,7 +136,7 @@ nav a{
     grid-template-areas: 
         "img_1 img_3 img_3"
         "img_2 img_3 img_3";
-    gap: 10px; /* Optional */
+    gap: 10px; 
 }
 
 .discount a{
